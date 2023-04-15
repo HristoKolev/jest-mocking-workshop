@@ -10,7 +10,7 @@ jest.mock('./helpers', () => ({
   default: () => '01 Jan 2000',
 }));
 
-test('works', () => {
+test('shows correct data', () => {
   render(<Component1 />);
 
   const titleElement = screen.getByTestId('title');
