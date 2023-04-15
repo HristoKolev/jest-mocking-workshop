@@ -46,6 +46,7 @@
     "no-void": "off",
     "prettier/prettier": "error",
     "import/extensions": "off",
+    "no-param-reassign": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
@@ -89,7 +90,8 @@
       "plugins": ["jest"],
       "extends": ["plugin:jest/recommended", "plugin:testing-library/react"],
       "rules": {
-        "testing-library/no-wait-for-multiple-assertions": "off"
+        "testing-library/no-wait-for-multiple-assertions": "off",
+        "react-hooks/rules-of-hooks": "off"
       }
     }
   ]
